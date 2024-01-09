@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+/* Core Grid CSS */
+@import 'ag-grid-community/styles/ag-grid.css';
+/* Quartz Theme Specific CSS */
+@import 'ag-grid-community/styles/ag-theme-quartz.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Border */
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: black !important;
+  }
+  /* Font color */
+  input.mat-input-element {
+    color: black !important;
+  }
+
+  ::ng-deep.mat-form-field.mat-focused .mat-form-field-ripple{
+    background-color: black;
+}
